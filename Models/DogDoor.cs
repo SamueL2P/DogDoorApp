@@ -18,7 +18,7 @@ namespace DogDoorApp.Models
 
         public void Open()
         {
-            Console.WriteLine("The Dog Door Opens");
+            Console.WriteLine("\nThe Dog Door Opens");
             open = true;
 
             Timer timer = new Timer(5000);
@@ -30,7 +30,7 @@ namespace DogDoorApp.Models
         public void Close()
         {
             open = false;
-            Console.WriteLine("The Dog Door Closes");
+            Console.WriteLine("\nThe Dog Door Closes");
         }
 
         public bool IsOpen() { 
